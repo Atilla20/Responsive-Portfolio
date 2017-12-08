@@ -257,7 +257,7 @@ MEDIA QUERIES
 */
 
 
-@media screen and (max-width:980px) {
+@media screen and (max-width:980px) and (min-width:769px) {
 
     .masthead{
       margin-bottom:20px;
@@ -294,6 +294,7 @@ MEDIA QUERIES
     nav {
       float:left;
       font-size:28px;
+      padding-bottom:10px;
     }
 
     nav a {
@@ -307,7 +308,7 @@ MEDIA QUERIES
     }
 
     #logo {
-            width: 800px;
+            width: 830px;
             padding-right: 100px;
             margin-left: -100px;
           }
@@ -315,50 +316,45 @@ MEDIA QUERIES
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) and (min-width:641px) {
   
-
-  
-  .container {
-    max-width: 768px;
-    padding:0 20px;
+    .container {
+          max-width: 768px;
+         padding:0 20px;
 
   }
 
-  #main-container {
-    padding-top:30px;
+    .aside-part {
+      max-width:99%;
+      margin-right:15px;
+      float:left;
+    }
 
-  }
+    .main-section {
+      max-width: 99%;
+      font-size:1.4em;
+    }
 
-  .main-section {
-    max-width: 90%;
-  }
+    nav {
+        float: right;
+         margin-top: 25px;
+}
 
-  .work {
-    width:100%;
-  }
+/*For some reason can not get the breakpoint at 768px to work :(.*/
 
-  .auth-image {
-    width: 100%;
-    margin-bottom:20px;
-  }
-  
-  .aside-part {
-    max-width:90%;
-  }
 
 
 
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:640px) {
 
         .masthead {
           position:static;
           margin-bottom:20px;
         }
         .container {
-          max-width:640px;
+          max-width:90%;
           padding:0 20px;
         }
         
@@ -367,7 +363,7 @@ MEDIA QUERIES
         }
 
         .aside-part {
-          max-width:420px;
+          max-width:90%;
           margin-right:15px;
           float:left;
         }
@@ -377,11 +373,6 @@ MEDIA QUERIES
           font-size:28px;
         }
 
-        #logo {
-            width: 690px;
-            padding-right: 200px;
-            margin-left: -56px;
-          }
 }
 
 
