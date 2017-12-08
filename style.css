@@ -257,10 +257,12 @@ MEDIA QUERIES
 */
 
 
-@media screen and (max-width:980px)and (min-width:769) {
+@media screen and (max-width:980px) {
 
     .masthead{
       margin-bottom:20px;
+      padding-right:20px;
+      padding-left:80px;
     }
 
     .container {
@@ -269,7 +271,9 @@ MEDIA QUERIES
     }
 
     #main-container {
-      padding-top: 30px;
+      padding-top: 190px;
+      padding-right:20px;
+      padding-left:80px;
     }
 
     .main-section {
@@ -292,23 +296,29 @@ MEDIA QUERIES
       font-size:28px;
     }
 
+    nav a {
+      padding-right:40px;
+      padding-left:40px;
+    }
+
     .auth-image {
       width: 100%;
       margin-bottom: 20px;
     }
 
     #logo {
-            width: 690px;
-            padding-right: 200px;
-            margin-left: -56px;
+            width: 800px;
+            padding-right: 100px;
+            margin-left: -100px;
           }
 
 }
 
 
-@media screen and (max-width:768px) and (min-width:769) {
+@media screen and (max-width:768px) {
   
 
+  
   .container {
     max-width: 768px;
     padding:0 20px;
@@ -321,7 +331,7 @@ MEDIA QUERIES
   }
 
   .main-section {
-    max-width: 420px;
+    max-width: 90%;
   }
 
   .work {
@@ -334,9 +344,7 @@ MEDIA QUERIES
   }
   
   .aside-part {
-    max-width:420px;
-    margin-right:280px;
-    float:left;
+    max-width:90%;
   }
 
 
@@ -374,8 +382,6 @@ MEDIA QUERIES
             padding-right: 200px;
             margin-left: -56px;
           }
-
- 
 }
 
 
